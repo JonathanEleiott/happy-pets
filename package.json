@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.cjs",
-    "start:dev": "nodemon server.cjs"
+    "start:dev": "nodemon server.cjs",
+    "seed:dev": "node ./db/seed.cjs"
   },
   "dependencies": {
     "react": "^19.0.0",
