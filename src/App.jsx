@@ -17,6 +17,8 @@ const App = () => {
     <>
       <h1>Happy Pets</h1>
 
+      <h2>Bunnies</h2>
+
       <ul>
       {
         pets.map((singlePet) => {
