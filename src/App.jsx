@@ -19,6 +19,8 @@ const App = () => {
 
       <h2>Bunnies</h2>
 
+      <h2>Turtles</h2>
+
       <ul>
       {
         pets.map((singlePet) => {
